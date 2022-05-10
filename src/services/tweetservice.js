@@ -3,6 +3,7 @@ import axios from "axios";
 const GET_ALL_USERS_TWEET_API_URL =
   "http://newtweetapp-lb-1871719017.us-east-1.elb.amazonaws.com/all";
 const BASE_URL = "http://newtweetapp-lb-1871719017.us-east-1.elb.amazonaws.com";
+const BASE_URL_TEST = "abcd";
 
 class TweetService {
   getAllTweets() {
